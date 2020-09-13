@@ -1,5 +1,5 @@
 // convert arrow function
-// fat 
+// fat function
 
 //  function sum(a,b){
 //      return a+b;
@@ -27,29 +27,29 @@ var square = arr.map(function(x){
 //         var run2=function(){
 //             console.log(this.name);
 //         }
-//         run2();
+//         run2()
 //     }
 // };// undefine
 // sua
-var a ={
-    name:"AAA",
-    run:function(){
-        //var that = this
-        var run2= () =>{
-            console.log(this.name);
-        }//.bind(this)or .bind(a)
-        run2();
-    }
-};
-a.run();
+// var a ={
+//     name:"AAA",
+//     run:function(){
+//         //var that = this
+//         var run2= () =>{
+//             console.log(this.name);
+//         }//.bind(this)or .bind(a)
+//         run2();
+//     }
+// };
+// a.run();
 //-----------------------------------
 var a = {
     foo:'bar',
     run:function(){
-        setTimeout(function() {
+        setTimeout(function () {
             console.log(this.foo)
         },2000);
     }
 };
 a.run()
-// chua nhu tren
+// chua nhu tren( arrow function , bind(this), bind(a))

@@ -3,13 +3,14 @@ class MachineCoffee{
         console.log('Making coffee....')
     };
 }
+// ghi đè toàn bộ nội dung
 class SpecicalCoffeeMachine extends MachineCoffee{
-    makeCoffeeBoss(cb){
+    makeCofee(cb){
         console.log('Making coffee and do something...');
         cb()
     }
 }
 var coffeeMachine = new SpecicalCoffeeMachine();
-console.log(coffeeMachine.makeCoffeeBoss(function(){
+console.log(coffeeMachine.makeCofee(function(){
     console.log('Call the boss ...');
 }));

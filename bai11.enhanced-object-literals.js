@@ -9,7 +9,7 @@
 //     console.log(` ${this.name} is running`);
 // }
 
-// const mickey = new Mouse('mickey');
+// const mickey = new Mouse('mickey');// khai báo với từ khóa new
 // mickey.run()
 //---------------------------------------
 //object literals

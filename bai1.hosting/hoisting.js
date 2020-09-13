@@ -17,7 +17,7 @@ function run(){
 
     var x=10
 }
-run(); //undefine 
+run(); //undefine vi x gan =10 trong function scope
 //---------------------------------vi
 var x=5;
 function run(){

@@ -8,10 +8,10 @@
 //hoisting
     //thay var bang let ==>bao loi
 // block scope(if, for)
-    //  if(true){
-    //      let i=5
-    // }
-    // console.log(i);// 5 ==> khong tuan thu block scope
+     if(true){
+         var i=5
+    }
+    console.log(i);// 5 ==> khong tuan thu block scope
     // //thay let, const ==>bao loi
 // redeclaration(khai bao bien lai)
         // for(var i=0;i<10;i++){

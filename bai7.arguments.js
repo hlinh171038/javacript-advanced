@@ -7,7 +7,7 @@
 // return result
 // }
 function sum(){
-    let number = Array.from(arguments);
+    let number = Array.from(arguments);// chuyển từ object sang aray
     var result = number.reduce((sum, number) =>{
         return sum+number;
     },0);

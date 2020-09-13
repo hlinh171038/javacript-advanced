@@ -8,8 +8,8 @@ class Annimal {
 }
 class Bird extends Annimal {
     fly(){
-        console.log('Flying')
+        console.log(`${this.name} is fying...`)
     }
 }
-var bird = new Bird('thong');
+var bird = new Bird('Thong');
 console.log(bird.fly())
